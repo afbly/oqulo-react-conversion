@@ -1,0 +1,50 @@
+@import '../../App.scss';
+
+.footer {
+
+    background-color: $white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    padding: 80px 12% 50px;
+    width: 100vw;
+    z-index: -1;
+
+    .footer-content {
+        text-align: center;
+    }
+
+    img {
+        padding: 10px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 30px 0 80px;
+        :not(:last-child) {
+            margin-right: 5%;
+        }
+    }
+
+    p {
+        font-size: $font-s;
+        font-weight: 300; 
+    }
+
+    .nav-item {
+        display: inline-block;
+        padding: 0;
+    }
+
+    .nav-links {
+        color: $grayishBlack;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        padding: 0;
+        font-size: $font-med;
+        font-weight: 300;
+        
+    }
+}

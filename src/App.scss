@@ -1,0 +1,59 @@
+// Colors
+$gradientOrange: linear-gradient( -90deg, rgb(239,122,76) 0%, rgb(223,95,96) 100%);
+$lightBlue: rgb(145, 202, 253);
+$lightOrange: rgb(244, 189, 120);
+$lavander:  rgb(149, 149, 206);
+$pink: rgb(221, 125, 190);
+$grayishBlack: rgb(51, 51, 51);
+$gray: rgb(136, 136, 136);
+$white: rgb(255, 255, 255);
+
+// Font Sizes
+$font-xs: 0.875rem; // 14px
+$font-s: 0.938rem;  // 15px
+$font-med: 1rem;    // 16px
+$font-lg: 1.125rem; // 18px
+$font-xl: 2.25rem;  // 36px
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-size: $font-med;
+    color: $grayishBlack;
+    line-height: 1.5;
+}
+
+.label-bar {
+    display: inline-block;
+    border-radius: 12px;
+    width: 33px;
+    height: 12px;
+}
+
+.hot-desks { 
+    background-color: $pink;
+}
+
+.private-offices { 
+    background-color: $lavander;
+}
+
+.virtual-offices { 
+    background-color: $lightOrange;
+}
+
+.meeting-rooms { 
+    background-color: $lightBlue;
+}

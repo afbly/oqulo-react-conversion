@@ -1,0 +1,39 @@
+.features {
+
+    .feature {
+        display:flex;
+        flex-direction: row;
+    }
+
+    .left-feature {
+        text-align: right;
+    }
+
+    .feature-text {
+
+        width: 20vw;
+        padding: 10px;
+
+        h4 {
+            margin: 0;
+            font-weight: 400;
+            font-size: 1.125rem;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 300;
+            margin: 0;
+        }
+    }
+
+    .feature-icon-left {
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+
+    .feature-icon-right {
+        margin-top: 25px;
+        margin-right: 30px;
+    }
+}
