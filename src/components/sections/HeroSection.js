@@ -1,21 +1,16 @@
-import React from 'react';
+import React from 'react'
 import '../../App.scss';
-import { Button } from '../sections/Button';
+import { Button } from './Button';
 import '../scss/HeroSection.scss';
 
 function HeroSection() {
-
-
     return (
-        <div className='hero'>
-            <div className='hero-background'>
-
-            </div>
-            <div className='hero-container'>
-                <div className='hero-image'>
+        <div className='hero-section'>
+            <div className='hero-section-content'>
+                <div className='hero-section-image'>
                     <img src="/99images/iPhone7.png" alt="iPhone7"/>
                 </div>
-                <div className='hero-cta'>
+                <div className='hero-section-cta'>
                     <h1>The Only Platform You'll Need to Run Smart Coworking Spaces & Serviced Offices</h1>
                     <p className='description'>Oqulo is built to sell, manage and grow your commercial real estate business.
                     Collect payments, manage clients and run reports using our booking app. 
