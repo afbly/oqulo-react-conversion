@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 .hero {
 
     /*background: url('./assets/99images/banner.png') 
@@ -9,7 +11,8 @@
     position: relative;
     margin: -116px auto;
     top: 0;
-    overflow: hidden;    
+    overflow: hidden;   
+    z-index: -2; 
 
     .hero-background {
         background-image: url('../assets/99images/banner.png');
@@ -49,10 +52,6 @@
         margin-top: 20px;
         padding-left: 20px;
 
-        :not(:last-child) {
-            margin-bottom: 20px;
-        }
-
         h1 {
             color: #fff;
             margin: 0;
@@ -60,15 +59,46 @@
             line-height: 2.5rem;
             width: 40vw;
             font-size: 2.25rem;
+            margin: 0 0 10px;
         }
 
         p {
-            font-size: 1rem;
-            color: #fff;
+            margin: 0 0 10px;
+        }
+
+        input {
+            margin-right: 10px;
+            box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
+            border-radius: 25px;
+            padding: 0 37px;
+            font-family: 'Rubik', sans-serif;
+            width: 60%;
+            left: 1189px;
+            top: 464px;
+            height: 50px;
+            border: 0;
+            z-index: 35;
+            font-size: $font-med;
             font-weight: 300;
-            width: 41vw;
+            margin: 0 15px 10px 0;
+        }
+
+        form {
             margin: 0;
         }
+    }
+
+    .description {
+        font-size: $font-med;
+        color: #fff;
+        font-weight: 300;
+        width: 41vw;
+    }
+
+    .no-spam {
+        font-weight: 300;
+        font-size: $font-xs;
+        color: $pink;
     }
 
     @media screen and (max-width: 960px) {

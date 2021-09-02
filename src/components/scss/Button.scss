@@ -1,0 +1,34 @@
+@import '../../App.scss';
+
+.btn {
+    padding: 0 1.125rem;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-size: $font-med;
+    font-weight: 400;
+
+    &:hover {
+        transform: translateY(-3px);
+    }
+
+    &--primary {
+        background: $gradientOrange;
+        box-shadow: 0px 15px 18px 2px rgba(0, 0, 0, 0.15);
+        color: $white;
+    }
+
+    &--outline {
+        background-color: transparent;
+        color: $gradientOrange;
+    }
+
+    &--medium {
+        padding: 0.625rem 1.125rem;
+    }
+
+    &--large {
+        padding: 0.9375rem 1.875rem;
+    }
+}
