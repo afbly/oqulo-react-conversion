@@ -7,9 +7,9 @@
     justify-content: center;
     align-items: center;
     margin: auto 0;
-    padding: 160px 12% 80px;
+    padding: 80px 12%;
     width: 100vw;
-    z-index: -1;
+    overflow: hidden;   
 
     .section1-text {
         padding-right: 60px;
@@ -46,19 +46,21 @@
         display: none;
     }
 
+    
     @media screen and (max-width: 960px) {
 
         flex-direction: column;
-        padding: 20px 6%;
+        padding: 50px 6%;
 
-        .section1-text {
+        &-text {
             display: none;
         }
 
-        .section1-img {
-            width: 90vw;
+        &-img {
+            width: 50vw;
             text-align: center;
-    
+            padding: 20px;
+
             img {
                 width: 85%;
             }

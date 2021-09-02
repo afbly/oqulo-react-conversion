@@ -24,9 +24,38 @@
         }
     }
     
-    .feature-icon {
+    .feature-icon-left {
         margin-top: 25px;
         margin-left: 30px;
     }
 
+    @media screen and (max-width: 425px) {
+        .feature {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+    
+        .feature-text {
+    
+            width: 70vw;
+            text-align: left;
+            padding: 10px;
+    
+            h4 {
+                margin: 0;
+                font-weight: 400;
+                font-size: 1.125rem;
+            }
+    
+            p {
+                font-size: 1rem;
+                font-weight: 300;
+                margin: 0;
+            }
+        }
+        
+        .feature-icon-left {
+            margin: 25px 15px 0 0;
+        }
+    }
 }

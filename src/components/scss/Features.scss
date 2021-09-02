@@ -1,7 +1,7 @@
 .features {
 
     .feature {
-        display:flex;
+        display: flex;
         flex-direction: row;
     }
 
@@ -35,5 +35,27 @@
     .feature-icon-right {
         margin-top: 25px;
         margin-right: 30px;
+    }
+
+    @media screen and (max-width: 425px) {
+        
+    
+        .feature-text {
+
+            width: 90vw;
+            padding: 10px;
+    
+            h4 {
+                margin: 0;
+                font-weight: 400;
+                font-size: 1.125rem;
+            }
+    
+            p {
+                font-size: 1rem;
+                font-weight: 300;
+                margin: 0;
+            }
+        }
     }
 }

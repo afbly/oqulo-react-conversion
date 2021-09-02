@@ -1,6 +1,5 @@
 .navbar {
 
-    background-color: transparent;
     display: flex;
     justify-content: center;
     margin: auto 0;
@@ -10,7 +9,7 @@
     z-index: 1;
     width: 100vw;
 
-    .navbar-container {
+    &-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -18,7 +17,7 @@
         max-width: 1500px;
     }
 
-    .navbar-logo {
+    &-logo {
         justify-self: start;
         cursor: pointer;
     }
@@ -62,12 +61,13 @@
         display: none;
     }
 
+
     @media screen and (max-width: 960px) {
 
         padding: 0;
         margin: 0;
 
-        .navbar-container {
+        &-container {
             display: flex;
             flex-direction: row-reverse;
             justify-content: space-between;
@@ -99,6 +99,7 @@
             opacity: 1;
             transition: all 0.5s ease;
             z-index: 1;
+            overflow: auto;
         }
 
         .nav-links {
@@ -119,7 +120,7 @@
             transform: translate(25%, 50%);
 
             img {
-                width: 120px;
+                width: 7.5rem;
             }
         }
         
@@ -132,7 +133,7 @@
             cursor: pointer;
             color: white;
             text-align: right;
-            padding: 20px;
+            padding: 10px;
         }
 
         .nav-links-mobile {

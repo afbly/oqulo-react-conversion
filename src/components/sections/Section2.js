@@ -13,9 +13,9 @@ function Section2() {
                     <p>Powerful functionalities that changes the way you do business.</p>
                 </div>
                 <div className='section2-content-container'>
-                    <LeftFeatures/>
+                    <LeftFeatures className='left-features'/>
                     <div className='section2-img'><img src="/99images/screen.png" alt="" /></div>
-                    <RightFeatures/>
+                    <RightFeatures className='right-features'/>
                 </div>
             </div>
         </div>
