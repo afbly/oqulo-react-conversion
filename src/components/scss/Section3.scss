@@ -48,8 +48,11 @@
             padding: 20px 6% 15px;
         }
 
-        .graph-image {
-            
+    }
+
+    @media screen and (max-width: 280px) {
+        &-header-container {
+            padding: 10px;
         }
     }
 }

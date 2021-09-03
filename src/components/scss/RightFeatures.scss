@@ -33,7 +33,7 @@
     @media screen and (max-width: 425px) {
         .feature-text {
 
-            width: 70vw;
+            width: 80vw;
             padding: 10px;
     
             h4 {
@@ -50,7 +50,14 @@
         }
 
         .feature-icon-right {
-            margin: 25px 20px 0;
+            margin: 25px 20px 0 5px;
+
+        }
+    }
+
+    @media screen and (max-width: 280px) {
+        .feature-icon-right {
+            margin: 25px 30px 0 10px;
 
         }
     }

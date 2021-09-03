@@ -167,7 +167,7 @@
         /* ./assets/99images/Rectangle1.png */
 
         height: 1250px;
-        margin: -210px auto;
+        margin: -200px auto;
 
         &-content {
             background: url('../assets/99images/mobile-bg-hero.png') 
@@ -193,7 +193,7 @@
 
         &-cta {
     
-            padding-top: 20px;
+            padding-top: 80px;
 
             h1 {
                 color: #fff;
@@ -240,6 +240,27 @@
             color: $pink;
         }
         
+    }
+
+    @media screen and (max-width: 375px) {
+        &-cta {
+    
+            padding-top: 70px;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        &-cta {
+    
+            padding-top: 0px;
+        }
+    }
+
+    @media screen and (max-width: 280px) {
+        &-cta {
+    
+            padding-top: 0;
+        }
     }
 
 

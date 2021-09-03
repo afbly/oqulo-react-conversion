@@ -37,7 +37,7 @@
     
         .feature-text {
     
-            width: 70vw;
+            width: 80vw;
             text-align: left;
             padding: 10px;
     
@@ -57,5 +57,9 @@
         .feature-icon-left {
             margin: 25px 15px 0 0;
         }
+    }
+
+    @media screen and (max-width: 375px) {
+        
     }
 }
