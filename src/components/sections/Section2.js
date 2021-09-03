@@ -1,14 +1,23 @@
 import React from 'react';
 import '../../App.scss';
 import '../scss/Section2.scss';
-import Section2C1 from './Section2C1';
-import Section2C2 from './Section2C2';
+import LeftFeatures from './LeftFeatures';
+import RightFeatures from './RightFeatures'; 
 
 function Section2() {
     return (
         <div className='section2'>
-            <Section2C1/>
-            <Section2C2/>
+            <div className='section2-content'>
+                <div className='section2-header-container content'>
+                    <h1>Oqulo Features at a Glance</h1>
+                    <p>Powerful functionalities that changes the way you do business.</p>
+                </div>
+                <div className='section2-content-container'>
+                    <LeftFeatures className='left-features'/>
+                    <div className='section2-img'><img src="/99images/screen.png" alt="" /></div>
+                    <RightFeatures className='right-features'/>
+                </div>
+            </div>
         </div>
     )
 }

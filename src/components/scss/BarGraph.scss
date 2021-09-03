@@ -8,8 +8,8 @@
     width: 100%;
     height: 530px;
     padding: 50px 45px;
-    z-index: -1;
     position: relative;
+    overflow: hidden;
 
 
     .graph-labels {
@@ -72,6 +72,81 @@
     }
 
     .graph-image {
-        
+
+    }
+
+    @media screen and (max-width: 768px) {
+        .graph-image {
+
+            padding-left: 20px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        padding: 25px 20px;
+
+        .graph-content {
+            display: flex;
+            flex-direction: row;
+            padding: 0px;
+        }
+
+        .graph-axis {
+            
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+    
+        }
+
+        .graph-labels {
+            display: inline-block;
+            margin: 0 auto;
+            padding: 5px 5%;
+            
+            ul {
+                padding: 0;
+                margin: 0 auto;
+                list-style: none;
+            }
+
+            span {
+                margin-right: 10px;
+            }
+
+            li {
+                text-align: center;
+                display: inline-block;
+                &:not(:last-child) {
+                    margin-right: 25px;
+                }
+            }
+
+            h5 {
+                margin: 0;
+                font-size: $font-xs;
+                font-weight: 300;
+                color: $grayishBlack;
+                display: inline-block;
+            }
+        }
+
+        .graph-image {
+
+            padding-left: 20px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
     }
 }

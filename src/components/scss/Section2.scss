@@ -1,18 +1,23 @@
-.section2 {
+@import '../../App.scss';
 
-    background: url('../assets/99images/featurebg.png') 
-    center center/cover no-repeat;
-    background-repeat: no-repeat;
-    height: auto;
+.section2 {
+    background-color: $white;
+    height: 700px;
     position: relative;
     width: 100vw;
-    z-index: -1;
+    overflow: hidden;
 
-    .content1 {
+    &-content {
+        background: url('../assets/99images/featurebg.png') 
+        center center/cover no-repeat;
+        height: 550px;
+    }
+
+    .content {
         padding: 50px 12% 15px;
     }
 
-    .section2-header-container {
+    &-header-container {
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -27,21 +32,20 @@
 
         p {
             font-weight: 300;
-            font-size: 1.1rem;
+            font-size: $font-med;
             margin: 0;
         }
     }
 
-    .section2-content1-container {
+    &-content-container {
         display: flex;
         flex-direction: row;
         margin: auto 0;
         width: 100vw;
-        padding: 15px 12% 80px;
-
+        padding: 15px 12% 0;
     }
 
-    .section2-img {
+    &-img {
 
         text-align: center;
         align-items: center;
@@ -52,6 +56,81 @@
         img {
             width: 95%;
             height: auto;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+
+        height: 1360px;
+        
+        .content {
+            padding: 50px 6% 20px;
+        }
+        
+        &-content {
+            background: url('../assets/99images/fbg.png') 
+            center center/cover no-repeat;
+            height: 1250px;
+        }
+
+        &-content-container {
+            display: flex;
+            flex-direction: column;
+            margin: auto 0;
+            width: 100vw;
+            padding: 15px 3% 0;
+        }
+
+        &-img {
+            text-align: center;
+            order: 3;
+            margin: 0 auto;
+            width: 90vw;
+
+            img {
+                width: 85%;
+                height: auto;
+            }
+        }
+
+        .right-features {
+            order: 2;
+        }
+
+        .left-features {
+            order: 1;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        height: 1450px;
+
+        &-content {
+            height: 1300px;
+        }
+
+        &-content-container {
+            padding: 15px 3% 0;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        height: 1500px;
+
+        &-content {
+            height: 1400px;
+        }
+
+        &-content-container {
+            padding: 15px 3% 0;
+        }
+    }
+
+    @media screen and (max-width: 280px) {
+        height: 1700px;
+
+        &-content {
+            height: 1600px;
         }
     }
 }
