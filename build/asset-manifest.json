@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.da8244db.css",
-    "main.js": "/static/js/main.4f44b85e.js",
-    "static/media/banner.png": "/static/media/banner.414a5e68fa81378aaf23.png",
-    "static/media/section4.png": "/static/media/section4.d3b93c8324bc8879208e.png",
-    "static/media/mobile-bg-hero.png": "/static/media/mobile-bg-hero.5d45dde9dc882e739650.png",
-    "static/media/featurebg.png": "/static/media/featurebg.6c8aeac798e3be37c94b.png",
-    "index.html": "/index.html",
-    "main.da8244db.css.map": "/static/css/main.da8244db.css.map",
-    "main.4f44b85e.js.map": "/static/js/main.4f44b85e.js.map"
+    "main.css": "/oqulo-react-conversion/static/css/main.2846c9a3.css",
+    "main.js": "/oqulo-react-conversion/static/js/main.4f44b85e.js",
+    "static/media/banner.png": "/oqulo-react-conversion/static/media/banner.414a5e68fa81378aaf23.png",
+    "static/media/section4.png": "/oqulo-react-conversion/static/media/section4.d3b93c8324bc8879208e.png",
+    "static/media/mobile-bg-hero.png": "/oqulo-react-conversion/static/media/mobile-bg-hero.5d45dde9dc882e739650.png",
+    "static/media/featurebg.png": "/oqulo-react-conversion/static/media/featurebg.6c8aeac798e3be37c94b.png",
+    "index.html": "/oqulo-react-conversion/index.html",
+    "main.2846c9a3.css.map": "/oqulo-react-conversion/static/css/main.2846c9a3.css.map",
+    "main.4f44b85e.js.map": "/oqulo-react-conversion/static/js/main.4f44b85e.js.map"
   },
   "entrypoints": [
-    "static/css/main.da8244db.css",
+    "static/css/main.2846c9a3.css",
     "static/js/main.4f44b85e.js"
   ]
 }

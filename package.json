@@ -2,7 +2,7 @@
   "name": "reactapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://afbly.github.io",
+  "homepage": "https://afbly.github.io/oqulo-react-conversion",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.14.1",
